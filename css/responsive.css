@@ -1,0 +1,26 @@
+@media (min-width: 780px) {
+  nav ul,
+  .topicons {
+    display: block;
+  }
+  nav span {
+    display: none;
+  }
+  .banner h1,
+  .counter-box h2 {
+    font-size: 4rem;
+  }
+  .features img {
+    width: auto;
+  }
+  .grid5 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
+@media (max-width: 480px) {
+  nav span {
+    position: absolute;
+    right: 24px;
+  }
+}
